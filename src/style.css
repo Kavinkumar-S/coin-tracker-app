@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    overflow-x: hidden;
+}
+
+
+/* serach box */
+
+.search-box{
+    padding: 8px 20px;
+    width: 80%;
+    background-image: linear-gradient(90deg,#3ab5b0 0,#3d99be 31%,#56317a);
+    color:#e2e2e2;
+
+}
+.filter-section-container{
+    border: 1px solid #2b2b2b;
+    width: 100%;
+    margin: 10px auto;
+    color: #fff;
+    background: #2b2b2b;
+}
+.table-section-container{
+    width: 100%;
+    background-color: #2b2b2b;
+    color: #fff;
+    border-radius: 4px;
+    margin: auto;
+    transition: transform 0.5ms ease-in;
+    cursor: pointer;
+}
+.table-img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.table-section-container:hover{
+    transform: scale(1.02);
+}
